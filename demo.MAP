@@ -1,0 +1,311 @@
+
+Linker Version 8.7.7.220718
+Input Object File: C:\Users\mediv\Nhap\demo\DEMO.OBJ
+Input Object File: C:\Users\mediv\Nhap\demo\STARTUP1_L.OBJ
+Input Object File: C:\Users\mediv\Nhap\demo\HT8_I2C_MASTER.OBJ
+Input Object File: C:\Users\mediv\Nhap\demo\HT8_IT.OBJ
+Input Object File: C:\Users\mediv\Nhap\demo\LCD.OBJ
+Input Object File: C:\Users\mediv\Nhap\demo\MPU6050.OBJ
+
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_tabrd_mrsc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0000h    0001h      CODE               @code (C:\Users\mediv\Nhap\demo\DEMO.OBJ)
+     00h     0001h     0001h    0001h      CODE               @start (C:\Users\mediv\Nhap\demo\DEMO.OBJ)
+     00h     0004h     0004h    0001h      CODE               @INT0_ISR_code (C:\Users\mediv\Nhap\demo\HT8_IT.OBJ)
+     00h     0008h     0008h    0001h      CODE               @COMP_ISR_code (C:\Users\mediv\Nhap\demo\HT8_IT.OBJ)
+     00h     000ch     000ch    0001h      CODE               @STM_ISR_code (C:\Users\mediv\Nhap\demo\HT8_IT.OBJ)
+     00h     0010h     0010h    0001h      CODE               @PTM_CTM_ISR_code (C:\Users\mediv\Nhap\demo\HT8_IT.OBJ)
+     00h     0014h     0014h    0001h      CODE               @LVD_EEPROM_ISR_code (C:\Users\mediv\Nhap\demo\HT8_IT.OBJ)
+     00h     0018h     0018h    0001h      CODE               @ADC_ISR_code (C:\Users\mediv\Nhap\demo\HT8_IT.OBJ)
+     00h     001ch     001ch    0001h      CODE               @TB0_ISR_code (C:\Users\mediv\Nhap\demo\HT8_IT.OBJ)
+     00h     0020h     0020h    0001h      CODE               @TB1_ISR_code (C:\Users\mediv\Nhap\demo\HT8_IT.OBJ)
+     00h     0024h     0024h    0001h      CODE               @INT1_ISR_code (C:\Users\mediv\Nhap\demo\HT8_IT.OBJ)
+     00h     0025h     0093h    006fh      CODE               _main (C:\Users\mediv\Nhap\demo\DEMO.OBJ)
+     00h     0094h     009dh    000ah      CODE               _I2C_Master_Init (C:\Users\mediv\Nhap\demo\HT8_I2C_MASTER.OBJ)
+     00h     009eh     00adh    0010h      CODE               _I2C_Start (C:\Users\mediv\Nhap\demo\HT8_I2C_MASTER.OBJ)
+     00h     00aeh     00b9h    000ch      CODE               _I2C_Stop (C:\Users\mediv\Nhap\demo\HT8_I2C_MASTER.OBJ)
+     00h     00bah     00dah    0021h      CODE               _Wr_Byte (C:\Users\mediv\Nhap\demo\HT8_I2C_MASTER.OBJ)
+     00h     00dbh     00f2h    0018h      CODE               _Rd_Byte (C:\Users\mediv\Nhap\demo\HT8_I2C_MASTER.OBJ)
+     00h     00f3h     010bh    0019h      CODE               _CheckACK (C:\Users\mediv\Nhap\demo\HT8_I2C_MASTER.OBJ)
+     00h     010ch     016ah    005fh      CODE               _I2C_Read (C:\Users\mediv\Nhap\demo\HT8_I2C_MASTER.OBJ)
+     00h     016bh     0179h    000fh      CODE               __delay_us (C:\Users\mediv\Nhap\demo\LCD.OBJ)
+     00h     017ah     018eh    0015h      CODE               __delay_ms (C:\Users\mediv\Nhap\demo\LCD.OBJ)
+     00h     018fh     0194h    0006h      CODE               _Check_ACK (C:\Users\mediv\Nhap\demo\LCD.OBJ)
+     00h     0195h     01efh    005bh      CODE               _lcdsend (C:\Users\mediv\Nhap\demo\LCD.OBJ)
+     00h     01f0h     020eh    001fh      CODE               _lcdinit (C:\Users\mediv\Nhap\demo\LCD.OBJ)
+     00h     020fh     0225h    0017h      CODE               _lcdcursor (C:\Users\mediv\Nhap\demo\LCD.OBJ)
+     00h     0226h     0240h    001bh      CODE               _lcdprint (C:\Users\mediv\Nhap\demo\LCD.OBJ)
+     00h     0241h     0253h    0013h      CODE               _mpu_cmd (C:\Users\mediv\Nhap\demo\MPU6050.OBJ)
+     00h     0254h     0275h    0022h      CODE               _mpu_init (C:\Users\mediv\Nhap\demo\MPU6050.OBJ)
+     00h     0276h     027fh    000ah      CODE               __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0280h     028dh    000eh      CODE               _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     028eh     0292h    0005h      CODE               _CROM2PROM (CROM2PROM)
+     00h     0080h     0088h    0009h      DATA     3.1111    @HCCINIT0 (C:\Users\mediv\Nhap\demo\HT8_I2C_MASTER.OBJ)
+     00h     0089h     0091h    0009h      DATA     2         @HCCINIT0 (C:\Users\mediv\Nhap\demo\MPU6050.OBJ)
+     00h     0092h     0092h    0001h      DATA     77        @data_ra (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0093h     0093h    0001h      DATA     25        @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0094h     0094h    0001h      DATA     17        @data_rc (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0095h     0095h    0001h      DATA     5         @data_rd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0096h     0096h    0001h      DATA     2         @data_re (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     00c5h     00c5h    0000h      LOCAL    0         @dummy (C:\Users\mediv\Nhap\demo\DEMO.OBJ)
+     00h     00a0h     00c4h    0025h      LOCAL    0.6216    _main (C:\Users\mediv\Nhap\demo\DEMO.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         _I2C_Master_Init (C:\Users\mediv\Nhap\demo\HT8_I2C_MASTER.OBJ)
+     00h     009ch     009ch    0000h      LOCAL    0         _lcdinit (C:\Users\mediv\Nhap\demo\LCD.OBJ)
+     00h     0098h     009bh    0004h      LOCAL    9         __delay_ms (C:\Users\mediv\Nhap\demo\LCD.OBJ)
+     00h     0097h     0097h    0001h      LOCAL    2         _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0097h     0097h    0000h      LOCAL    0         _I2C_Start (C:\Users\mediv\Nhap\demo\HT8_I2C_MASTER.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0097h     0097h    0000h      LOCAL    0         _I2C_Stop (C:\Users\mediv\Nhap\demo\HT8_I2C_MASTER.OBJ)
+     00h     0098h     009bh    0004h      LOCAL    7.5       _lcdsend (C:\Users\mediv\Nhap\demo\LCD.OBJ)
+     00h     0097h     0097h    0001h      LOCAL    2         _Wr_Byte (C:\Users\mediv\Nhap\demo\HT8_I2C_MASTER.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         _Check_ACK (C:\Users\mediv\Nhap\demo\LCD.OBJ)
+     00h     009eh     009eh    0000h      LOCAL    0         _mpu_init (C:\Users\mediv\Nhap\demo\MPU6050.OBJ)
+     00h     009ch     009dh    0002h      LOCAL    4.5       _mpu_cmd (C:\Users\mediv\Nhap\demo\MPU6050.OBJ)
+     00h     009ch     009fh    0004h      LOCAL    3.5       _lcdcursor (C:\Users\mediv\Nhap\demo\LCD.OBJ)
+     00h     009ch     009fh    0004h      LOCAL    3         _lcdprint (C:\Users\mediv\Nhap\demo\LCD.OBJ)
+     00h     0097h     009ah    0004h      LOCAL    3         __delay_us (C:\Users\mediv\Nhap\demo\LCD.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00h     0098h     009eh    0007h      LOCAL    3.4286    _I2C_Read (C:\Users\mediv\Nhap\demo\HT8_I2C_MASTER.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         _CheckACK (C:\Users\mediv\Nhap\demo\HT8_I2C_MASTER.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         _Rd_Byte (C:\Users\mediv\Nhap\demo\HT8_I2C_MASTER.OBJ)
+
+     Public Symbols Information
+     Address            Public by Name
+     0018h              _ADC_ISR
+     0008h              _COMP_ISR
+     00f3h              _CheckACK
+     018fh              _Check_ACK
+     028fh              _Crom2Prom
+     028eh              _Crom2PromNext
+     0088h              _I2C_Flag
+     0094h              _I2C_Master_Init
+     010ch              _I2C_Read
+     0098h              _I2C_Read_2
+     009eh              _I2C_Start
+     00aeh              _I2C_Stop
+     0004h              _INT0_ISR
+     0024h              _INT1_ISR
+     0014h              _LVD_EEPROM_ISR
+     0010h              _PTM_CTM_ISR
+     00dbh              _Rd_Byte
+     0089h              _Rd_CheckSum
+     008eh              _Rx_Buff
+     008ah              _Rx_Data
+     000ch              _STM_ISR
+     001ch              _TB0_ISR
+     0020h              _TB1_ISR
+     0084h              _Tx_Buff
+     0080h              _Tx_Data
+     00bah              _Wr_Byte
+     027ch              __DELAYX0
+     027bh              __DELAYX1
+     027ah              __DELAYX2
+     0279h              __DELAYX3
+     0278h              __DELAYX4
+     0277h              __DELAYX5
+     0276h              __DELAYX6
+     0285h              __DELAYY0_isr00
+     0284h              __DELAYY1_isr00
+     0283h              __DELAYY2_isr00
+     0282h              __DELAYY3_isr00
+     0281h              __DELAYY4_isr00
+     0280h              __DELAYY5_isr00
+     017ah              __delay_ms
+     016bh              __delay_us
+     020fh              _lcdcursor
+     009fh              _lcdcursor_2
+     01f0h              _lcdinit
+     0226h              _lcdprint
+     0195h              _lcdsend
+     0025h              _main
+     0241h              _mpu_cmd
+     0254h              _mpu_init
+     0092h              ra
+     0093h              rb
+     0094h              rc
+     0095h              rd
+     0096h              re
+
+     Address            Public by Value
+     0004h              _INT0_ISR
+     0008h              _COMP_ISR
+     000ch              _STM_ISR
+     0010h              _PTM_CTM_ISR
+     0014h              _LVD_EEPROM_ISR
+     0018h              _ADC_ISR
+     001ch              _TB0_ISR
+     0020h              _TB1_ISR
+     0024h              _INT1_ISR
+     0025h              _main
+     0080h              _Tx_Data
+     0084h              _Tx_Buff
+     0088h              _I2C_Flag
+     0089h              _Rd_CheckSum
+     008ah              _Rx_Data
+     008eh              _Rx_Buff
+     0092h              ra
+     0093h              rb
+     0094h              _I2C_Master_Init
+     0094h              rc
+     0095h              rd
+     0096h              re
+     0098h              _I2C_Read_2
+     009eh              _I2C_Start
+     009fh              _lcdcursor_2
+     00aeh              _I2C_Stop
+     00bah              _Wr_Byte
+     00dbh              _Rd_Byte
+     00f3h              _CheckACK
+     010ch              _I2C_Read
+     016bh              __delay_us
+     017ah              __delay_ms
+     018fh              _Check_ACK
+     0195h              _lcdsend
+     01f0h              _lcdinit
+     020fh              _lcdcursor
+     0226h              _lcdprint
+     0241h              _mpu_cmd
+     0254h              _mpu_init
+     0276h              __DELAYX6
+     0277h              __DELAYX5
+     0278h              __DELAYX4
+     0279h              __DELAYX3
+     027ah              __DELAYX2
+     027bh              __DELAYX1
+     027ch              __DELAYX0
+     0280h              __DELAYY5_isr00
+     0281h              __DELAYY4_isr00
+     0282h              __DELAYY3_isr00
+     0283h              __DELAYY2_isr00
+     0284h              __DELAYY1_isr00
+     0285h              __DELAYY0_isr00
+     028eh              _Crom2PromNext
+     028fh              _Crom2Prom
+
+
+ROM Usage Statistics
+     Size      Used     Percentage
+     2000h     0279h    7%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     0045h    53%
+     01h       0080h     0000h    0%
+     Total     0100h     0045h    26%
+
+Use Stack Count
+_main: 4
+_I2C_Write: 2
+_mpu_read: 2
+_read: 3
+
+Call Tree
+    @dummy
+        _main (0)
+            _I2C_Master_Init (1)
+            _lcdinit (1)
+                __delay_ms (2)
+                    _builtin_holtek_delay_isr00 (3)
+                _I2C_Start (2)
+                    __DELAYX (3)
+                _I2C_Stop (2)
+                    __DELAYX (3)
+                _lcdsend (2)
+                    _I2C_Start (3)
+                        __DELAYX (4)
+                    _Wr_Byte (3)
+                        __DELAYX (4)
+                    _Check_ACK (3)
+                    _I2C_Stop (3)
+                        __DELAYX (4)
+            _mpu_init (1)
+                __delay_ms (2)
+                    _builtin_holtek_delay_isr00 (3)
+                _mpu_cmd (2)
+                    _I2C_Start (3)
+                        __DELAYX (4)
+                    _Wr_Byte (3)
+                        __DELAYX (4)
+                    _Check_ACK (3)
+                    _I2C_Stop (3)
+                        __DELAYX (4)
+                    __delay_ms (3)
+                        _builtin_holtek_delay_isr00 (4)
+            __delay_ms (1)
+                _builtin_holtek_delay_isr00 (2)
+            _lcdcursor (1)
+                _lcdsend (2)
+                    _I2C_Start (3)
+                        __DELAYX (4)
+                    _Wr_Byte (3)
+                        __DELAYX (4)
+                    _Check_ACK (3)
+                    _I2C_Stop (3)
+                        __DELAYX (4)
+            _lcdprint (1)
+                _lcdsend (2)
+                    _I2C_Start (3)
+                        __DELAYX (4)
+                    _Wr_Byte (3)
+                        __DELAYX (4)
+                    _Check_ACK (3)
+                    _I2C_Stop (3)
+                        __DELAYX (4)
+                __delay_us (2)
+                _Crom2Prom (2)
+            _I2C_Read (1)
+                _I2C_Start (2)
+                    __DELAYX (3)
+                _Wr_Byte (2)
+                    __DELAYX (3)
+                _CheckACK (2)
+                    __DELAYX (3)
+                _I2C_Stop (2)
+                    __DELAYX (3)
+                __DELAYX (2)
+                _Rd_Byte (2)
+                    __DELAYX (3)
+    _I2C_Write
+        _I2C_Start (0)
+            __DELAYX (1)
+        _Wr_Byte (0)
+            __DELAYX (1)
+        _CheckACK (0)
+            __DELAYX (1)
+        __DELAYX (0)
+        _I2C_Stop (0)
+            __DELAYX (1)
+    _mpu_read
+        _I2C_Start (0)
+            __DELAYX (1)
+        _Wr_Byte (0)
+            __DELAYX (1)
+        _Check_ACK (0)
+        _I2C_Stop (0)
+            __DELAYX (1)
+        _Rd_Byte (0)
+            __DELAYX (1)
+    _read
+        _I2C_Read (0)
+            _I2C_Start (1)
+                __DELAYX (2)
+            _Wr_Byte (1)
+                __DELAYX (2)
+            _CheckACK (1)
+                __DELAYX (2)
+            _I2C_Stop (1)
+                __DELAYX (2)
+            __DELAYX (1)
+            _Rd_Byte (1)
+                __DELAYX (2)
+
+HLINK: Program entry point at section '@code' (address 0) of file 'C:\Users\mediv\Nhap\demo\DEMO.OBJ'
+
+Total 0 error(s), Total 0 Warning(s)
